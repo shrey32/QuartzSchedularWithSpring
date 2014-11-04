@@ -63,6 +63,12 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- Spring + Quartz need transaction -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${org.springframework.version}</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.quartz-scheduler</groupId>
